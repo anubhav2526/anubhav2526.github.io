@@ -1,0 +1,41 @@
+@media (max-width: 1200px) {
+    /* Styles for desktop/laptop */
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for iPad Mini */
+    body {
+        font-size: 14px;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .nav-links {
+        display: block;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 360px) {
+    /* Styles for Samsung Galaxy S8+ */
+    body {
+        font-size: 12px;
+    }
+
+    .project-card {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .contact-section input {
+        width: 100%;
+    }
+}
